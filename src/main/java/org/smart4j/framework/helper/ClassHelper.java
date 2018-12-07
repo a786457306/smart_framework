@@ -7,6 +7,11 @@ import org.smart4j.framework.util.ClassUtil;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 获取所加载的类
+ *
+ * 但不能通过类来实例化对象
+ */
 public final class ClassHelper {
 
     /**

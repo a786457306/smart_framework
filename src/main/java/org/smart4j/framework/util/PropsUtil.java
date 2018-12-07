@@ -17,7 +17,7 @@ import java.util.Properties;
  */
 public final class PropsUtil {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(org.smart4j.framework.helper.PropsUtil.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
 
     /**
      * 加载属性文件

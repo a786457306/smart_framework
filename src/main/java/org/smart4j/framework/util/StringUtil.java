@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
  * StringUtil
  * 字符串工具类
  *
+ *
  * @author Daydreamer
  * @date 2018/10/5 10:56
  */
@@ -21,6 +22,11 @@ public class StringUtil {
 
     public static boolean isNotEmpty(String str){
         return !isEmpty(str);
+    }
+
+
+    public static String[] splitString(String body, String s) {
+        return body.split(s);
     }
 }
 
